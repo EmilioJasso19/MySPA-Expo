@@ -109,7 +109,6 @@ export default function Home() {
     return (
         <SafeAreaView style={styles.container}>
             <StatusBar style="auto"/>
-            <Header />
             <ScrollSection title='Promociones' table='promotion' />
             <ScrollSection title='Servicios' table='service' />
 
